@@ -18,8 +18,6 @@ const SignInForm = () => {
 
 	// const { setCurrentUser } = useContext(UserContext); we centrilizing this feature via useEffect() in user.context.jsx
 
-	console.log(formFields);
-
 	const resetFormFields = () => {
 		setFormFields(defaultFormField);
 	};
